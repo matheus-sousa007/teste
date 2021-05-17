@@ -1,5 +1,8 @@
 #include "../include/veiculo.h"
+<<<<<<< HEAD
 #include "../include/funcoes-gerais.h"
+=======
+>>>>>>> 2c32aa271e75c3b4b0ce052cddc80572829d1476
 
 typedef struct header{
     char status;
@@ -29,6 +32,7 @@ typedef struct dataReg{
 
 typedef struct db{
     dataReg_t *db;
+<<<<<<< HEAD
 }db_t;
 
 header_t *readHeader(s_file_t *dataFile){
@@ -42,3 +46,6 @@ header_t *readHeader(s_file_t *dataFile){
         return NULL;
     }   
 }
+=======
+}db_t;
+>>>>>>> 2c32aa271e75c3b4b0ce052cddc80572829d1476
